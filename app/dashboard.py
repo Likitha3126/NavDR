@@ -41,6 +41,7 @@ st.divider()
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 possible_files = [
+    os.path.join(PROJECT_ROOT, "results", "navdr_final_results.csv"),
     os.path.join(PROJECT_ROOT, "results", "navdr_ai_results.csv"),
     os.path.join(PROJECT_ROOT, "results", "navdr_results.csv"),
     os.path.join(PROJECT_ROOT, "results", "navdr_fusion_results.csv"),
